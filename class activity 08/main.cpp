@@ -6,9 +6,14 @@
 //
 
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    int x = 10;
+    double y = 3;  // Change y to double
+    double z = x / y;  // Division will now be floating-point
+
+    cout << z << endl;
+
     return 0;
 }
